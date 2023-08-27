@@ -25,7 +25,7 @@ The microservices architecture will deploy a Kubernetes cluster with a mongodb s
 `-- services.yaml
 ```
 The `app` directory contains all the code pertaining to the flask app.  
-The `flask-app-image.dockerfile` should specifies the insructions to assemble the docker image for the flask app.  
+The `flask-app-image.dockerfile` assembles the docker image for the flask app.  
 The `.yaml` files in the root directory specify the kubernetes manifests that will bring up the microservices deployment.
 
 
